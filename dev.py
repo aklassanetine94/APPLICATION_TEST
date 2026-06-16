@@ -7,7 +7,7 @@ Created on Mon Oct 10 10:15:29 2022
 #####################################
 import streamlit as st  # pip install streamlit
 import pandas as pd  # pip install pandas
-import plotly.express as px  # pip install plotly-express
+import plotly.express as px
 import base64  # Standard Python Module
 from io import StringIO, BytesIO  # Standard Python Module
 
