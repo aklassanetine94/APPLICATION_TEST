@@ -29,12 +29,15 @@ import math
 import streamlit as st
 #from PIL import image
 
-df=pd.read_csv(r"C:/Users/Acer/Downloads/Maladies_cardiaques1.csv")
-
+url_fichier="https://github.com/aklassanetine94/APPLICATION_TEST/blob/main/Maladies_cardiaques1.csv"
+#df=pd.read_csv(r"C:/Users/Acer/Downloads/Maladies_cardiaques1.csv")
+df=pd.read_csv(url_fichier)
+    
 #st.title(":bar_chart: Sales Dashboard")
 from PIL import Image
-groupama=Image.open("C:/Users/Acer/Downloads/Groupama.png")
-
+#groupama=Image.open("C:/Users/Acer/Downloads/Groupama.png")
+url_groupama="https://github.com/aklassanetine94/APPLICATION_TEST/blob/main/Groupama.png"
+groupama=Image.open(url_groupama)
 name="Alassane TINE"
 describe="Je suis etudiant en master 1 data science"
 email="a.alassane.tine@gmail.com"
